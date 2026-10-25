@@ -1,4 +1,0 @@
-# DSH「往 QQ 空间发说说」—— 独立插件：工具 qzone_post / qzone_whoami + 设置页接口
-- insert:
-    - id: qzone-post
-      name: 'dsh-qzone-post'
