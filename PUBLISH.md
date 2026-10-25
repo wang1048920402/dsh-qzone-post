@@ -131,3 +131,20 @@ git push origin v1.0.1
 - `package.json` 里的 `repository` / `homepage` 现在写的是 `Yuuyuko-uu/dsh-qzone-post`；
   如果你的 GitHub 用户名不是这个，**先改 package.json 再推**。
 - 两个渠道可以同时发：GitHub 给源码和 Release，npm 给 `pnpm add dsh-qzone-post`。
+
+---
+
+# ✅ 已发布（2026-10-25）
+
+- 仓库：<https://github.com/wang1048920402/dsh-qzone-post>
+- Release：<https://github.com/wang1048920402/dsh-qzone-post/releases/tag/v1.0.1>
+- 描述与 topics 已补：`dsh-plugin` `deepseek-harness` `qzone` `qq-space` `onebot` `napcat` `snowluma` `dsh`
+- 多余的那层 `dsh-qzone-post/` 子目录已递归删除；根目录现在就是插件本体
+
+**验证过的安装方式**（真跑通）：
+
+```powershell
+pnpm add https://github.com/wang1048920402/dsh-qzone-post/releases/download/v1.0.1/dsh-qzone-post-1.0.1.tgz
+```
+
+装完 `apply()` 正常，四个工具都在：`qzone_state` / `qzone_publish` / `qzone_profile` / `qzone_avatar`。
