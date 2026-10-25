@@ -1,0 +1,63 @@
+{
+  "name": "dsh-qzone-post",
+  "version": "1.0.1",
+  "description": "QQ 空间插件：发带图说说、看最近动态、改昵称/签名/性别、换头像。走协议端（SnowLuma / NapCat）自带的空间接口，不开浏览器；协议端不支持时自动退到浏览器兜底。",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/host.js",
+  "exports": {
+    ".": "./lib/host.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "legacy",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "slots"
+      ],
+      "external": [
+        "react"
+      ]
+    }
+  },
+  "author": {
+    "name": "wang1048920402",
+    "url": "https://github.com/wang1048920402"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "qzone",
+    "qq-space",
+    "onebot",
+    "snowluma",
+    "napcat"
+  ],
+  "homepage": "https://github.com/wang1048920402/dsh-qzone-post#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wang1048920402/dsh-qzone-post.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wang1048920402/dsh-qzone-post/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
