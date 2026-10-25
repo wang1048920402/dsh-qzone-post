@@ -1,6 +1,6 @@
 {
   "name": "dsh-qzone-post",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "QQ 空间插件：发带图说说、看最近动态、改昵称/签名/性别、换头像。走协议端（SnowLuma / NapCat）自带的空间接口，不开浏览器；协议端不支持时自动退到浏览器兜底。",
   "license": "MIT",
   "type": "module",
